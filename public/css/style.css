@@ -79,7 +79,7 @@ hr {
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
@@ -581,4 +581,15 @@ color: #777;
 
 .cursor{
 	cursor: pointer;
+}
+
+.player-wrapper {
+	position: relative;
+	padding-top: 56.25%;
+}
+  
+.react-player {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
