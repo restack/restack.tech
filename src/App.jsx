@@ -11,7 +11,7 @@ import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 import REACTGA from 'react-ga';
 
-REACTGA.initialize('UA-129419926-1');
+REACTGA.initialize('UA-129419926-2');
 REACTGA.pageview(window.location.pathname + window.location.search);
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
